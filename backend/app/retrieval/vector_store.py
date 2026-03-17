@@ -50,5 +50,5 @@ if __name__ == "__main__":
         for i, item in enumerate(results, 1):
             print(f"\n[{i}] score={item['score']:.4f}")
             print(f"title: {item['title']}")
-            print(f"chunk_id: {item['chunk_id']}  page: {item['page']}")
+            print(f"doc_id: {item['doc_id']}  chunk_id: {item['chunk_id']}  page: {item['page']}")
             print(f"text: {item['text'][:300]}...")
